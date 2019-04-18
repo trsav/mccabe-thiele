@@ -1,12 +1,12 @@
 
-# McCabe Thiele Method with Murphree Efficiency
+# McCabe-Thiele Method with Murphree Efficiency
 
 
-## McCabe Thiele Method
+## McCabe-Thiele Method
 The method was first published by Warren L. McCabe and Ernest Thiele in 1925, and is a graphical procedure of determining the number of trays within a distillation collumn. The Murphree tray efficiency modifies the equilibrium curve of the two components in order to better account for non-idealities. 
 
 ### Current implimentation
-The current implementation presented here allows for a Murphree efficiency to be applied to the classical McCabe Thiele plot. Whilst it is relatively easy online to find McCabe Thiele 'calculators', there are few that have implementations accounting for the Murphree plate efficiency. 
+The current implementation presented here allows for a Murphree efficiency to be applied to the classical McCabe-Thiele plot. Whilst it is relatively easy online to find McCabe-Thiele 'calculators', there are few that have implementations accounting for the Murphree plate efficiency. 
 
 ### Limitations
 * The molar heats of vaporization of the feed components are equal
@@ -49,7 +49,8 @@ nm=0.75         #Murphree tray efficiency
 McCabeThiele(PaVap,PbVap,R_factor,xf,xd,xb,q,nm)
 ```
 Produces the following output: 
-<img align='center' src="https://github.com/TomRSavage/McCabeThiele/blob/master/McCabeThielePlot.png" width="400">
+
+<img align='center' src="https://github.com/TomRSavage/McCabeThiele/blob/master/McCabeThielePlot.png" width="500">
 
 ## Authors
 
