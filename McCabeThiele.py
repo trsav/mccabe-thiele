@@ -1,7 +1,6 @@
 import numpy as np 
 import matplotlib.pyplot as plt 
-import imageio
-import os 
+
 
 def eq_og(xa,relative_volatility):
     ''' 
