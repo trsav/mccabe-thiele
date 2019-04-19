@@ -14,11 +14,11 @@ The current implementation presented here allows for a Murphree efficiency to be
 * Heat effects such as heats of solution are negligible
 
 ## Effect of parameters
-<img align="center" src="https://github.com/TomRSavage/McCabeThiele/blob/master/q.gif" width="500"> <img align="center" src="https://github.com/TomRSavage/McCabeThiele/blob/master/R.gif" width="500"> 
+<img align="center" src="https://github.com/TomRSavage/McCabeThiele/blob/master/q.gif" width="400"> <img align="center" src="https://github.com/TomRSavage/McCabeThiele/blob/master/R.gif" width="400"> 
 
 Here shown on the left is the effect of changing q, and on the right is shown the effect of changing R. 
 
-<img align="center" src="https://github.com/TomRSavage/McCabeThiele/blob/master/xd.gif" width="500"> <img align="center" src="https://github.com/TomRSavage/McCabeThiele/blob/master/nm.gif" width="500"> 
+<img align="center" src="https://github.com/TomRSavage/McCabeThiele/blob/master/xd.gif" width="400"> <img align="center" src="https://github.com/TomRSavage/McCabeThiele/blob/master/nm.gif" width="400"> 
 
 Here shown on the left is the effect of changing the desired distillate composition, and on the right is shown the effect of changing the Murphree efficiency. 
 
