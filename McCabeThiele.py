@@ -1,5 +1,7 @@
 import numpy as np 
 import matplotlib.pyplot as plt 
+import imageio
+import os 
 
 def eq_og(xa,relative_volatility):
     ''' 
@@ -253,9 +255,9 @@ PbVap=74.3   # Vapour pressure of b
 xd=0.975     # Distillate composition 
 xb=0.025     # Bottoms composition 
 xf=0.5       # Feed composition 
-q=0.5    # q 
+q=0.5       # q 
 R_factor=1.3 # Reflux ratio = R_min* R_factor
-nm=0.75      # Murphree efficiency
+nm=0.75     #Murphree Efficiency
+
 
 McCabeThiele(PaVap,PbVap,R_factor,xf,xd,xb,q,nm)
-
