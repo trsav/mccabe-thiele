@@ -1,7 +1,5 @@
 import numpy as np 
 import matplotlib.pyplot as plt 
-import imageio
-import os 
 
 def eq_og(xa,relative_volatility):
     ''' 
@@ -160,8 +158,10 @@ def McCabeThiele(PaVap,PbVap,R_factor,xf,xd,xb,q,nm):
     b=(q/(q-1))-1+nm+((al*xf)/(1-q))-(xf/(1-q))-(al*nm)
     c=xf/(1-q)
 
-
-    q_eqX=(-b-np.sqrt((b**2)-(4*a*c)))/(2*a)
+    if q>1:
+        q_eqX=(-b+np.sqrt((b**2)-(4*a*c)))/(2*a)
+    else: 
+        q_eqX=(-b-np.sqrt((b**2)-(4*a*c)))/(2*a)
     # where the q-line intersects the equilibrium curve (x-axis)
     q_eqy=eq(q_eqX,relative_volatility,nm)
     # where the q-line intersects the equilibrium curve (y-axis)
@@ -248,14 +248,14 @@ def McCabeThiele(PaVap,PbVap,R_factor,xf,xd,xb,q,nm):
 
 '''PARAMETERS'''
 
-PaVap=179.2  #Vapour pressure of a
-PbVap=74.3   #Vapour pressure of b 
-xd=0.975     # distillate composition 
-xb=0.025     # bottoms composition 
-xf=0.5       # feed composition 
-q=0.5        # q
-R_factor=1.8 # Reflux ratio = R_min* R_factor
-nm=0.75
+PaVap=179.2  # Vapour pressure of a
+PbVap=74.3   # Vapour pressure of b 
+xd=0.975     # Distillate composition 
+xb=0.025     # Bottoms composition 
+xf=0.5       # Feed composition 
+q=0.5    # q 
+R_factor=1.3 # Reflux ratio = R_min* R_factor
+nm=0.75      # Murphree efficiency
 
 McCabeThiele(PaVap,PbVap,R_factor,xf,xd,xb,q,nm)
 
