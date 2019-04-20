@@ -61,6 +61,8 @@ Produces the following output:
 
 <img align='center' src="https://github.com/TomRSavage/McCabeThiele/blob/master/McCabeThielePlot.png" width="500">
 
-## Authors
+**Please note: I wouldn't reccomend actually using this code to design a real distillation collumn,  you should probably get an expert.**
+
+## Author
 
 * **Tom Savage** - *Initial work* - [TomRSavage](https://github.com/TomRSavage)
