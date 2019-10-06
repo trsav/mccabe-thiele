@@ -16,11 +16,11 @@ The current implementation presented here allows for a Murphree efficiency to be
 ## Effect of parameters
 <img align="center" src="https://github.com/TomRSavage/McCabeThiele/blob/master/q.gif" width="400"> <img align="center" src="https://github.com/TomRSavage/McCabeThiele/blob/master/R.gif" width="400"> 
 
-Here shown on the left is the effect of changing q, and on the right is shown the effect of changing R. 
+Here shown on the left is the effect of changing the feed condition q, and on the right is shown the effect of changing the reflux ratio R. 
 
 <img align="center" src="https://github.com/TomRSavage/McCabeThiele/blob/master/xd.gif" width="400"> <img align="center" src="https://github.com/TomRSavage/McCabeThiele/blob/master/nm.gif" width="400"> 
 
-Here shown on the left is the effect of changing the desired distillate composition, and on the right is shown the effect of changing the Murphree efficiency. 
+Here shown on the left is the effect of changing the desired distillate composition xd, and on the right is shown the effect of changing the Murphree efficiency. 
 
 ## Function Use
 ```
